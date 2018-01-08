@@ -3,6 +3,8 @@ import Link from "gatsby-link";
 import Header from "../components/header.js";
 import MainContent from "../components/maincontent.js";
 import RightSideBar from "../components/rightsidebar.js";
+import Footer from "../components/footer.js";
+import ItemBar from "../components/itembar.js";
 
 const MenuLink = props =>
   <li className="mainmenuitem">
@@ -17,8 +19,9 @@ export default ({ children }) =>
     <MenuLink to="/about/">ABOUT</MenuLink>
   </Header>
   <MainContent>
+    <ItemBar/>
     {children()}
   </MainContent>
-  <RightSideBar>
-  </RightSideBar>
+  <RightSideBar/>
+  <Footer />
 </div>
