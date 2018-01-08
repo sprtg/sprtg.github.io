@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 
-export default () => <div style={{ color: 'tomato' }}>
+export default () => (
+<div>
 	<h1>Hello Gatsby!</h1>
 	<p>What a world.</p>
 	<img src="http://lorempixel.com/400/200/" alt="" />
@@ -12,4 +13,5 @@ export default () => <div style={{ color: 'tomato' }}>
 	<div>
 		<Link to="/counter/">Counter</Link>
 	</div>
-</div>;
+</div>
+);
