@@ -15,7 +15,7 @@ const MenuLink = props =>
 
 export default ({ children }) =>
 <div style={{ maxWidth: `64em`, marginTop: `0px`, marginRight: `auto`, marginLeft: `auto` }}>
-  <div style={{ width: `calc(100% - 20px)`, 
+  <div class="clearfix" style={{ width: `calc(100% - 20px)`, 
                 height: `40px`,
                 marginRight: `10px`,
                 marginLeft: `10px`,
