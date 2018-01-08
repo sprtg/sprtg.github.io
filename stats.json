@@ -1,8 +1,12 @@
 {
   "assetsByChunkName": {
+    "component---src-pages-games-js": [
+      "component---src-pages-games-js-dc94752b6c09d056cbfc.js",
+      "component---src-pages-games-js-dc94752b6c09d056cbfc.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-aa2eeb70dac6cf0d4e82.js",
-      "component---src-pages-index-js-aa2eeb70dac6cf0d4e82.js.map"
+      "component---src-pages-index-js-6983ac24f5784e49c75a.js",
+      "component---src-pages-index-js-6983ac24f5784e49c75a.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,8 +21,8 @@
       "component---src-pages-counter-js-7f5c38722780e4c42ff2.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-463f54c1a407b5ddab57.js",
-      "component---src-layouts-index-js-463f54c1a407b5ddab57.js.map"
+      "component---src-layouts-index-js-bfeac1f7f7667b2f6e58.js",
+      "component---src-layouts-index-js-bfeac1f7f7667b2f6e58.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -29,20 +33,32 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-f1ef510847f79fa0a799.js",
+      "commons-8b186acffa48646bd616.js",
       "build-js-styles.css",
-      "commons-f1ef510847f79fa0a799.js.map",
+      "commons-8b186acffa48646bd616.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-cdac6ed745f64c22d4e9.js",
-      "component---src-pages-page-2-js-cdac6ed745f64c22d4e9.js.map"
+      "component---src-pages-page-2-js-4e0b1455b97cd4b9f28e.js",
+      "component---src-pages-page-2-js-4e0b1455b97cd4b9f28e.js.map"
     ],
     "app": [
-      "app-4f7e900a31077098cafb.js",
+      "app-ff2348ad93f74981d97a.js",
       "build-js-styles.css",
-      "app-4f7e900a31077098cafb.js.map",
+      "app-ff2348ad93f74981d97a.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---games": [
+      "path---games-a0e39f21c11f6a62c5ab.js",
+      "path---games-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-dc94752b6c09d056cbfc.js",
+      "component---src-pages-about-js-dc94752b6c09d056cbfc.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
