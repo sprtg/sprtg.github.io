@@ -11,3 +11,37 @@ html {
   clear: both;
   content: '';
 }
+.l-wrap {
+  max-width: 64em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  width: calc(100% - 20px);
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.logo {
+  width: calc(25% - 10px);
+  height: 40px;
+  float: left;
+}
+.mainmenu{
+  width: calc(75% - 10px);
+  float: left;
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 0;
+}
+.mainmenuitem a {
+  width: calc(16.666% - 20px);
+  float: left;
+  height: 100%;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
