@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Header from "../components/header.js";
 
 const MenuLink = props =>
   <li className="mainmenuitem">
@@ -8,13 +9,10 @@ const MenuLink = props =>
 
 export default ({ children }) =>
 <div className="l-wrap">
-  <div className="header"> 
-    <img className="logo" src="http://lorempixel.com/200/40/" alt=""/>
-    <ul className="mainmenu">
-      <MenuLink to="/">BLOG</MenuLink>
-      <MenuLink to="/games/">STUFF</MenuLink>
-      <MenuLink to="/about/">ABOUT</MenuLink>
-    </ul>
-  </div>
+  <Header>
+    <MenuLink to="/">BLOG</MenuLink>
+    <MenuLink to="/games/">STUFF</MenuLink>
+    <MenuLink to="/about/">ABOUT</MenuLink>
+  </Header>
   {children()}
 </div>
